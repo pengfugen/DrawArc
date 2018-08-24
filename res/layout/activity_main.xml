@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout
+        android:layout_width="240dp"
+        android:layout_height="240dp" >
+
+        <com.example.drawarc.ArcProgressView
+            android:id="@+id/arc_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="240dp"
+        android:layout_height="240dp" >
+        <com.example.drawarc.TaskCompletedView
+            android:id="@+id/task_complete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView 
+            android:text="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textcolor"
+            />
+    </RelativeLayout>
+</LinearLayout>
